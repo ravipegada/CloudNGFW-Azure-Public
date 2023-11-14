@@ -10,4 +10,3 @@ sudo wget -p /www/var/html/ https://github.com/ravipegada/CNGFW-Azure/blob/main/
 sudo wget -p /www/var/html/ https://github.com/ravipegada/CNGFW-Azure/blob/main/index.html
 sudo wget -p /usr/lib/cgi-bin/ https://github.com/ravipegada/CNGFW-Azure/blob/main/guess-sql-root-password.cgi
 sudo service apache2 restart
-sudo service apache2 status | grep Active
