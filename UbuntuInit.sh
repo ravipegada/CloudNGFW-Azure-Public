@@ -5,7 +5,6 @@ sudo apt update
 sudo apt -y install apache2
 sudo service apache2 restart
 sudo service apache2 status | grep Active
-
 # adding the needed permissions for creating and editing the index.html file
 sudo chown -R $paloalto:$paloalto /var/www
 # creating the html landing page
