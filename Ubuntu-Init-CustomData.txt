@@ -1,9 +1,8 @@
 #Cloud-Config Install required tools while creation of the Ubuntu VM
 runcmd:
 - sudo apt update 
-- sudo apt install apache2
+- sudo apt -y install apache2
 - sudo service apache2 restart
-- sudo service apache2 status | grep Active
 - sudo wget -P /www/var/html/ https://github.com/ravipegada/CNGFW-Azure/blob/main/web-to-db-attack.html
 - sudo wget -p /www/var/html/ https://github.com/ravipegada/CNGFW-Azure/blob/main/sql-attack.html
 - sudo wget -p /www/var/html/ https://github.com/ravipegada/CNGFW-Azure/blob/main/showheaders.php
